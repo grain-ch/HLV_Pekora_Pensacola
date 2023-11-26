@@ -1,0 +1,10 @@
+<USA_Disk_3Blade_06_alpha.mfm>
+	<fx>	shaders/materials/pbs/propeller_material.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	content/gameplay/common/textures/USA_Disk_3Blade_06_alpha_a.dds	</Texture>
+	</property>
+	<property>	doubleSided
+		<Bool>	true	</Bool>
+	</property>
+</USA_Disk_3Blade_06_alpha.mfm>

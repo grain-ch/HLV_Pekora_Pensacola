@@ -1,0 +1,37 @@
+<ASC012_Pensacola_1944.mfm>
+	<fx>	shaders/std_effects/PBS_ship.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/ship/ASC012_Pensacola_1944_a.dds	</Texture>
+	</property>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/ship/ASC012_Pensacola_1944_ao.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/ship/ASC012_Pensacola_1944_n.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/ship/ASC012_Pensacola_1944_mg.dds	</Texture>
+	</property>
+	<property>	detailMap
+		<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
+	</property>
+	<property>	g_detailAlbedoInfluence
+		<Float>	0.000000	</Float>
+	</property>
+	<property>	g_detailGlossInfluence
+		<Float>	0.000000	</Float>
+	</property>
+	<property>	g_detailNormalInfluence
+		<Float>	0.000000	</Float>
+	</property>
+	<property>	g_detailFadeDistance
+		<Float>	5.000000	</Float>
+	</property>
+	<property>	g_detailScaleU
+		<Float>	32.000000	</Float>
+	</property>
+	<property>	g_detailScaleV
+		<Float>	32.000000	</Float>
+	</property>
+</ASC012_Pensacola_1944.mfm>

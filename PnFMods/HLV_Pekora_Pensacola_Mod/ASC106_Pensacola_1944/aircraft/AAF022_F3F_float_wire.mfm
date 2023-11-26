@@ -1,0 +1,10 @@
+<AAF022_F3F_float_wire.mfm>
+	<fx>	shaders/std_effects/PBS_wire.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/aircraft/AAF022_F3F_float_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/aircraft/AAF022_F3F_float_mg.dds	</Texture>
+	</property>
+</AAF022_F3F_float_wire.mfm>

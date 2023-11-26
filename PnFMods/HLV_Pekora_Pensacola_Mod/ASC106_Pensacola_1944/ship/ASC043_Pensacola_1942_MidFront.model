@@ -1,0 +1,9 @@
+<ASC043_Pensacola_1942_MidFront.model>
+	<exporter>	1.6	</exporter>
+	<parent>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/ship/lods/ASC043_Pensacola_1942_MidFront_lod1	</parent>
+	<extent>	10.0000	</extent>
+	<materialNames />
+	<castsShadow>	true	</castsShadow>
+	<nodefullVisual>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/ship/ASC043_Pensacola_1942_MidFront	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</ASC043_Pensacola_1942_MidFront.model>

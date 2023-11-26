@@ -1,0 +1,7 @@
+<AF039_Rangefinder_4_5m.model>
+	<castsShadow>	false	</castsShadow>
+	<parent>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/finder/lods/AF039_Rangefinder_4_5m_lod1	</parent>
+	<extent>	3.0000	</extent>
+	<nodefullVisual>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/finder/AF039_Rangefinder_4_5m	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</AF039_Rangefinder_4_5m.model>

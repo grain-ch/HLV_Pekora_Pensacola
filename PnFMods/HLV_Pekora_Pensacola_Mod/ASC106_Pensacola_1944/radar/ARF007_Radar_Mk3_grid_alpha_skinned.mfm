@@ -1,0 +1,7 @@
+<ARF007_Radar_Mk3_grid_alpha_skinned.mfm>
+	<fx>	shaders/std_effects/grid_alpha_skinned.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/radar/ARF007_Radar_Mk3_grid_alpha_a.dds	</Texture>
+	</property>
+</ARF007_Radar_Mk3_grid_alpha_skinned.mfm>

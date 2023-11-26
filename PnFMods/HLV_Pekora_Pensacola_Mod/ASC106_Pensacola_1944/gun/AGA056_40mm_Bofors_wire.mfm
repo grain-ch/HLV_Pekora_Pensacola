@@ -1,0 +1,10 @@
+<AGA056_40mm_Bofors_wire.mfm>
+	<fx>	shaders/materials/pbs/wire_material.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/gun/AGA056_40mm_Bofors_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/gun/AGA056_40mm_Bofors_mg.dds	</Texture>
+	</property>
+</AGA056_40mm_Bofors_wire.mfm>
