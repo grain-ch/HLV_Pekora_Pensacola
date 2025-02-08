@@ -2,7 +2,7 @@
 	<fx>	shaders/materials/pbs/propeller_material.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
 	<property>	diffuseMap
-		<Texture>	content/gameplay/common/textures/Planes_Propeller_2_alpha_a.dds	</Texture>
+		<Texture>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/aircraft/Planes_Propeller_2_alpha_a.dds	</Texture>
 	</property>
 	<property>	doubleSided
 		<Bool>	true	</Bool>

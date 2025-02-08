@@ -1,7 +1,8 @@
 <ARS004_Radar_SG.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/radar/lods/ARS004_Radar_SG_lod1	</parent>
-	<extent>	6.0000	</extent>
-	<nodefullVisual>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/radar/ARS004_Radar_SG	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/radar/ARS004_Radar_SG.visual	</visual>
+	<animations>
+		<animation>	content/animation_state_machines/legacy/gameplay/ARS004_Radar_SG/ARS004_Radar_SG.ssm	</animation>
+	</animations>
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </ARS004_Radar_SG.model>

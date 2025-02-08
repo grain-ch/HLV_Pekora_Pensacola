@@ -31,7 +31,4 @@
 	<property>	g_detailScaleU
 		<Float>	8.0000	</Float>
 	</property>
-	<property>	g_detailScaleV
-		<Float>	4.0000	</Float>
-	</property>
 </AC002_Catapult_2_skinned.mfm>

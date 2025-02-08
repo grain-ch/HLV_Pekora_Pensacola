@@ -1,7 +1,0 @@
-<ARS006_Radar_SK_lod1.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/radar/lods/ARS006_Radar_SK_lod2	</parent>
-	<extent>	6.0000	</extent>
-	<nodefullVisual>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/radar/lods/ARS006_Radar_SK_lod1	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
-</ARS006_Radar_SK_lod1.model>

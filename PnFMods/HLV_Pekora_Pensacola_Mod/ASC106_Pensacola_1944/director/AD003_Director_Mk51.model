@@ -1,7 +1,6 @@
 <AD003_Director_Mk51.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/director/lods/AD003_Director_Mk51_lod1	</parent>
-	<extent>	2.0000	</extent>
-	<nodefullVisual>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/director/AD003_Director_Mk51	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/director/AD003_Director_Mk51.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </AD003_Director_Mk51.model>

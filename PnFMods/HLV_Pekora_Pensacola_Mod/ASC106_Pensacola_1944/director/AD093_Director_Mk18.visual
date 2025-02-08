@@ -1,38 +1,106 @@
 <AD093_Director_Mk18.visual>
-	<boundingBox>
-		<min>	-0.026327 -0.000000 -0.037671	</min>
-		<max>	0.032078 0.140186 0.032739	</max>
-	</boundingBox>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.000000 0.000000 0.000000	</row0>
-			<row1>	0.000000 1.000000 0.000000	</row1>
-			<row2>	0.000000 0.000000 1.000000	</row2>
-			<row3>	0.000000 0.000000 0.000000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	AD093	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
-				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
+			<node>
+				<identifier>	AD093	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	AD093	</node>
-		<geometry>
-			<vertices>	AD093Shape.vertices	</vertices>
-			<primitive>	AD093Shape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_Director	</identifier>
-					<mfm>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/director/AD093_Director_Mk18.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
+	<boundingBox>
+		<min>	-0.0263 0.0000 -0.0377	</min>
+		<max>	0.0321 0.1401 0.0327	</max>
+	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	AD093Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	AD093	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Director	</identifier>
+				<mfm>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/director/AD093_Director_Mk18.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	AD093_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	AD093	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Director	</identifier>
+				<mfm>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/director/AD093_Director_Mk18.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	AD093_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	AD093	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Director	</identifier>
+				<mfm>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/director/AD093_Director_Mk18.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	AD093_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	AD093	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Director	</identifier>
+				<mfm>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/director/AD093_Director_Mk18.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	2.000000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	AD093Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	4.000000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	AD093_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	8.000000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	AD093_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	30.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	AD093_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </AD093_Director_Mk18.visual>

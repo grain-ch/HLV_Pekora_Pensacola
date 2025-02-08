@@ -1,47 +1,97 @@
 <AD034_Director_Mk22.visual>
-	<boundingBox>
-		<min>	-0.093120 -0.002991 -0.086909	</min>
-		<max>	0.092367 0.150658 0.113263	</max>
-	</boundingBox>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.000000 0.000000 0.000000	</row0>
-			<row1>	0.000000 1.000000 0.000000	</row1>
-			<row2>	0.000000 0.000000 1.000000	</row2>
-			<row3>	0.000000 0.000000 0.000000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	Director_Mk22	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
-				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	MP_AM647_Radar_Mk3	</identifier>
+				<identifier>	Director_Mk22	</identifier>
 				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 0.137534 -0.050919 1.000000	</row3>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
+				<node>
+					<identifier>	MP_AM647_Radar_Mk3	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.1375 -0.0509 1.0000	</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Director_Mk22	</node>
-		<geometry>
-			<vertices>	Director_Mk22Shape.vertices	</vertices>
-			<primitive>	Director_Mk22Shape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_Director	</identifier>
-					<mfm>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/director/AD034_Director_Mk22.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
+	<boundingBox>
+		<min>	-0.0931 -0.0030 -0.0869	</min>
+		<max>	0.0923 0.1506 0.1132	</max>
+	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	Director_Mk22Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Director_Mk22	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Director	</identifier>
+				<mfm>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/director/AD034_Director_Mk22.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Director_Mk22_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Director_Mk22	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Director	</identifier>
+				<mfm>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/director/AD034_Director_Mk22.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Director_Mk22_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Director_Mk22	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Director	</identifier>
+				<mfm>	PnFMods/HLV_Pekora_Pensacola_Mod/ASC106_Pensacola_1944/director/AD034_Director_Mk22.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	3.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	Director_Mk22Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	15.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	Director_Mk22_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	40.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	Director_Mk22_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </AD034_Director_Mk22.visual>
